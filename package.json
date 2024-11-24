@@ -29,5 +29,6 @@
     "tabWidth": 2,
     "singleQuote": true,
     "trailingComma": "es5"
-  }
+  },
+  "packageManager": "pnpm@9.14.2"
 }
