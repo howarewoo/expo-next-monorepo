@@ -4,6 +4,10 @@
 </div>
 
 <p align="center">
+Updated by @howarewoo to use Next 15 and Expo SDK 52
+</p>
+
+<p align="center">
   <a href="https://github.com/byCedric/expo-monorepo-example#-why-is-it-fast"><b>Why is it fast?</b></a>
   &ensp;&mdash;&ensp;
   <a href="https://github.com/byCedric/expo-monorepo-example#-how-to-use-it"><b>How to use it</b></a>

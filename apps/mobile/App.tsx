@@ -1,4 +1,4 @@
-import { HomeIcon, HomeScreen } from '@repo/feature-home';
+import { HomeIcon, HomeScreen } from '@repo/surfaces';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, View } from 'react-native';
 
