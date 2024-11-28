@@ -1,11 +1,12 @@
 "use client";
 
 import { Paragraph } from "@repo/ui";
-import { useState } from "react";
 import { Button, View } from "react-native";
 
+import { useHomeContext } from "../context";
+
 export function Counter() {
-  const [count, setCount] = useState(0);
+  const { count, incrementCount, decrementCount } = useHomeContext();
   return (
     <View
       style={{
@@ -14,9 +15,9 @@ export function Counter() {
         alignItems: "center",
       }}
     >
-      <Button title="-" onPress={() => setCount(count - 1)} />
+      <Button title="-" onPress={decrementCount} />
       <Paragraph>Count: {count}</Paragraph>
-      <Button title="+" onPress={() => setCount(count + 1)} />
+      <Button title="+" onPress={incrementCount} />
     </View>
   );
 }
