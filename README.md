@@ -8,15 +8,17 @@ Forked from example by @byCedric, and updated by @howarewoo to use Next 15 and E
 </p>
 
 <p align="center">
-  <a href="https://github.com/byCedric/expo-monorepo-example#-why-is-it-fast"><b>Why is it fast?</b></a>
+  <a href="https://github.com/howarewoo/expo-next-monorepo#-why-is-it-fast"><b>Why is it fast?</b></a>
   &ensp;&mdash;&ensp;
-  <a href="https://github.com/byCedric/expo-monorepo-example#-how-to-use-it"><b>How to use it</b></a>
+  <a href="https://github.com/howarewoo/expo-next-monorepo#-should-i-use-it"><b>How to use it</b></a>
   &ensp;&mdash;&ensp;
-  <a href="https://github.com/byCedric/expo-monorepo-example#-structure"><b>Structure</b></a>
+  <a href="https://github.com/howarewoo/expo-next-monorepo#-how-to-use-it"><b>How to use it</b></a>
   &ensp;&mdash;&ensp;
-  <a href="https://github.com/byCedric/expo-monorepo-example#-workflows"><b>Workflows</b></a>
+  <a href="https://github.com/howarewoo/expo-next-monorepo#-structure"><b>Structure</b></a>
   &ensp;&mdash;&ensp;
-  <a href="https://github.com/byCedric/expo-monorepo-example#%EF%B8%8F-caveats"><b>Caveats & Issues</b></a>
+  <a href="https://github.com/howarewoo/expo-next-monorepo#-workflows"><b>Workflows</b></a>
+  &ensp;&mdash;&ensp;
+  <a href="https://github.com/howarewoo/expo-next-monorepo#%EF%B8%8F-caveats"><b>Caveats & Issues</b></a>
 </p>
 
 <br />
