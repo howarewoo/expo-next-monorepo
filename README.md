@@ -87,8 +87,10 @@ You can use any package manager with Expo. If you want to use bun, yarn, or pnpm
 ### Packages
 
 - [`packages/eslint-config`](./packages/eslint-config) - Preconfigured ESLint configuration for each app or package.
-- [`packages/surfaces`](./packages/surfaces) - Shared React Native domain-logic for apps, using both `ui` and `eslint-config` packages. Currently uses "use client" for all components to enable next reuse.
-- [`packages/ui`](./packages/ui) - Shared React Native UI components for apps, using the `eslint-config` package. Currently uses "use client" for all components to enable next reuse.
+- [`packages/surfaces`](./packages/surfaces) - Shared React Native domain-logic for apps, using both `ui` and `eslint-config` packages.
+- [`packages/ui`](./packages/ui) - Shared React Native UI components for apps, using the `eslint-config` package.
+
+All packages currently add "use client" after bundling to allow use in Next. Preserving directives per file is in the works.
 
 ## 👷 Workflows
 
@@ -156,3 +158,6 @@ As of writing, the `eas build` command needs to be executed from the package fol
 If you want to maintain the keystore or certificates yourself, you have to [configure EAS with local credentials](https://docs.expo.dev/app-signing/local-credentials/#credentialsjson). When your CI provider doesn't allow you to add "secret files", you can [encode these files to base64 strings](https://docs.expo.dev/app-signing/local-credentials/#using-local-credentials-on-builds-triggered-from) and decode whenever you need it.
 
 > It's highly recommended to keep keystores and certificates out of your repository to avoid security issues.
+
+## TODO
+- Preserve directives (eg. "use client") per file
