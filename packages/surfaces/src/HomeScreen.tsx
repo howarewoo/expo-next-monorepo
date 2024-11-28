@@ -1,5 +1,5 @@
-import { Paragraph, Strong } from '@repo/ui';
-import { ComponentProps } from 'react';
+import { Paragraph, Strong } from "@repo/ui";
+import { ComponentProps } from "react";
 
 type HomeScreenProps = ComponentProps<typeof Paragraph>;
 

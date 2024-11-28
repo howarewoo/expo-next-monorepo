@@ -6,6 +6,8 @@
     "dev:mobile": "turbo dev --filter=\"{./apps/mobile}...\"",
     "dev:web": "turbo dev --filter=\"{./apps/web}...\"",
     "lint": "turbo lint",
+    "lint:fix": "turbo lint -- --fix",
+    "fix": "npx prettier . --write && turbo lint",
     "test": "turbo test",
     "build": "turbo build",
     "build:mobile": "turbo build --filter=\"...{./apps/mobile}\"",
