@@ -4,7 +4,7 @@
 </div>
 
 <p align="center">
-Updated by @howarewoo to use Next 15 and Expo SDK 52
+Forked from example by @byCedric, and updated by @howarewoo to use Next 15 and Expo SDK 52
 </p>
 
 <p align="center">
@@ -81,13 +81,13 @@ You can use any package manager with Expo. If you want to use bun, yarn, or pnpm
 
 ### Apps
 
-- [`apps/mobile`](./apps/mobile) - Expo app using `eslint-config` and `feature-home` packages.
-- [`apps/web`](./apps/web) - Next.js app using `eslint-config` and `feature-home` packages.
+- [`apps/mobile`](./apps/mobile) - Expo app using `eslint-config` and `surfaces` packages.
+- [`apps/web`](./apps/web) - Next.js app using `eslint-config` and `surfaces` packages.
 
 ### Packages
 
 - [`packages/eslint-config`](./packages/eslint-config) - Preconfigured ESLint configuration for each app or package.
-- [`packages/feature-home`](./packages/feature-home) - Shared React Native domain-logic for apps, using both `ui` and `eslint-config` packages.
+- [`packages/surfaces`](./packages/surfaces) - Shared React Native domain-logic for apps, using both `ui` and `eslint-config` packages.
 - [`packages/ui`](./packages/ui) - Shared React Native UI components for apps, using the `eslint-config` package.
 
 ## 👷 Workflows
@@ -156,13 +156,3 @@ As of writing, the `eas build` command needs to be executed from the package fol
 If you want to maintain the keystore or certificates yourself, you have to [configure EAS with local credentials](https://docs.expo.dev/app-signing/local-credentials/#credentialsjson). When your CI provider doesn't allow you to add "secret files", you can [encode these files to base64 strings](https://docs.expo.dev/app-signing/local-credentials/#using-local-credentials-on-builds-triggered-from) and decode whenever you need it.
 
 > It's highly recommended to keep keystores and certificates out of your repository to avoid security issues.
-
-## ❌ Common issues
-
-_No ongoing issues, we are actively monitoring and fixing potential issues_
-
-<div align="center">
-  <br />
-  with&nbsp;:heart:&nbsp;&nbsp;<strong>byCedric</strong>
-  <br />
-</div>
