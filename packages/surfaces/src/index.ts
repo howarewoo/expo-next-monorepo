@@ -1,2 +1,1 @@
-export * from "./HomeIcon";
-export * from "./HomeScreen";
+export * from "./home/HomeSurface";

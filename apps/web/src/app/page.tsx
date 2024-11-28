@@ -1,11 +1,10 @@
-import { HomeIcon, HomeScreen } from "@repo/surfaces";
+import { HomeSurface } from "@repo/surfaces";
 
 export default function Home() {
   return (
-    <div className="grid items-center justify-items-center min-h-screen bg-white">
-      <main className="flex flex-col items-center">
-        <HomeIcon />
-        <HomeScreen />
+    <div>
+      <main style={{height: "100vh"}}>
+        <HomeSurface/>
       </main>
     </div>
   );
