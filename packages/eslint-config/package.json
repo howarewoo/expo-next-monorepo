@@ -3,7 +3,7 @@
   "name": "@repo/eslint-config",
   "version": "1.0.0",
   "description": "repo eslint configuration for React Native",
-  "author": "Cedric van Putten <me@bycedric.com>",
+  "author": "Adam Woo",
   "license": "MIT",
   "main": "index.js",
   "files": [

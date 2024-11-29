@@ -3,7 +3,7 @@
   "name": "@repo/surfaces",
   "version": "1.0.0",
   "description": "repo home feature for React (Native)",
-  "author": "Cedric van Putten <me@bycedric.com>",
+  "author": "Adam Woo",
   "license": "MIT",
   "main": "./build/index.js",
   "types": "./src/index.ts",
