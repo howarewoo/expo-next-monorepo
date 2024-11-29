@@ -1,13 +1,12 @@
 "use client";
 
 import { Paragraph, Strong } from "@repo/ui";
-import { ComponentProps } from "react";
-import { View } from "react-native";
+import { View, ViewProps } from "react-native";
 
 import { Counter } from "./components/Counter";
 import { HomeProvider } from "./context";
 
-type HomeSurfaceProps = ComponentProps<typeof View>;
+type HomeSurfaceProps = ViewProps;
 
 export const HomeSurface = (props: HomeSurfaceProps) => (
   <HomeProvider>
