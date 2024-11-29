@@ -35,6 +35,7 @@ const nextConfig: NextConfig = {
       '.web.tsx',
       ...config.resolve.extensions,
     ];
+    return config;
   }
 };
 
