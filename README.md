@@ -8,9 +8,9 @@ Forked from example by @byCedric, and updated by @howarewoo to use Next 15 and E
 </p>
 
 <p align="center">
-  <a href="https://github.com/howarewoo/expo-next-monorepo#-why-is-it-fast"><b>Why is it fast?</b></a>
+  <a href="https://github.com/howarewoo/expo-next-monorepo#why-is-it-fast"><b>Why is it fast?</b></a>
   &ensp;&mdash;&ensp;
-  <a href="https://github.com/howarewoo/expo-next-monorepo#-should-i-use-it"><b>How to use it</b></a>
+  <a href="https://github.com/howarewoo/expo-next-monorepo#-should-i-use-it"><b>Should I use it</b></a>
   &ensp;&mdash;&ensp;
   <a href="https://github.com/howarewoo/expo-next-monorepo#-how-to-use-it"><b>How to use it</b></a>
   &ensp;&mdash;&ensp;
@@ -34,8 +34,6 @@ In **apps/mobile** we leverage the Metro cache to speed up building and publishi
 ## ℹ️ Should I use it?
 
 This repository demonstrates a working stack using [Expo](https://docs.expo.dev/) in a fast monorepo, while sharing most of the codebase with web. The primary goal of this repository is to showcase what is possible with Expo while keeping the code as "vanilla" as possible. Feel free to use this repository however you prefer, but when starting a project from scratch, consider a template with more assumptions. Those assumptions should help you develop your project faster than this repository can.
-
-- [`create-t3-turbo`](https://github.com/t3-oss/create-t3-turbo) → [Expo](https://docs.expo.dev/), [Next.js](https://nextjs.org/), [pnpm](https://pnpm.io/), [Turborepo](https://turbo.build/repo), [NextAuth.js](https://next-auth.js.org/), [Prisma](https://www.prisma.io/), and [tRPC](https://trpc.io/).
 
 ## 🚀 How to use it
 
